@@ -1,5 +1,4 @@
 const { NotImplementedError } = require('../extensions/index.js');
-
 /**
  * Implement the Stack with a given interface via array.
  *
@@ -12,7 +11,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  * stack.pop(); // undefined
  *
  */
-
 class Stack {
   constructor() {
     this.items = [];
@@ -30,7 +28,6 @@ class Stack {
     return this.items[this.items.length - 1];
   }
 }
-
 module.exports = {
   Stack
 };
